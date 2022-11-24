@@ -1,38 +1,98 @@
 .App {
   text-align: center;
+  background: black;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.about {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.link {
+  font-size: 1.5rem;
+  color: aqua;
+  transition: ease-in-out .5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.link:hover {
+  color: rgb(0, 153, 153);
+  transition: 1s;
+}
+
+.nav-bar {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+}
+
+.nav-butt {
+  font-weight: bold;
+  font-size: 1.3rem;
+  height: 3rem;
+  width: 10rem;
+  border-radius: .2rem;
+  margin: 1rem;
+  border: aqua solid 3px;
+  background-color: rgba(0, 0, 0, .5);
+  color: aqua;
+  transition: ease-in-out .5s;
+}
+
+.nav-butt:hover {
+  border: rgb(0, 153, 153) solid 3px;
+  color: rgb(0, 153, 153);
+  background-color: rgba(0, 0, 0, .9);
+  transition: 1s;
+}
+
+img {
+  height: fit-content;
+  width: fit-content;
+  border: 6px solid aqua;
+  border-radius: .2rem;
+  box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 15px;
+}
+
+.home {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3.5rem;
+}
+
+.shadow {
+  filter: brightness(50%);
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.email {
+  text-decoration: underline;
+}
+
+.d-block {
+  max-height: 80rem;
+  max-width: 80rem;
+}
+
+@media only screen and (max-width: 850px) {
+  p {
+    font-size: 1rem;
   }
 }

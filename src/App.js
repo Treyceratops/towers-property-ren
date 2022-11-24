@@ -1,7 +1,21 @@
 import './App.css';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import About from './components/About';
+import Gallery from './components/Gallery';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<div className='App'>
+			<NavBar />
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/about' element={<About />} />
+				<Route path='/gallery' element={<Gallery />} />
+			</Routes>
+		</div>
+	);
 }
 
 export default App;
