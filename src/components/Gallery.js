@@ -57,7 +57,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery5} alt='Fifth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Fifth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -65,7 +65,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery6} alt='Sixth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Sixth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -73,7 +73,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery7} alt='Seventh slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Seventh slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -81,7 +81,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery8} alt='Eighth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Eighth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -89,7 +89,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery9} alt='Ninth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Ninth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -97,7 +97,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery10} alt='Tenth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Tenth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -105,7 +105,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery11} alt='Eleventh slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Eleventh slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -113,7 +113,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery12} alt='Twelfth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Twelfth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -121,7 +121,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery13} alt='Thirteenth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Thirteenth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -129,7 +129,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery14} alt='Fourteenth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Fourteenth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
@@ -137,7 +137,7 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery15} alt='Fifteenth slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
+					<h3>Fifteenth slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>

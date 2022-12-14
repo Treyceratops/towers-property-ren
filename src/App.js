@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
 	return (
 		<div className='App'>
+			<style>{'body { background-color: RGB(50, 50, 50); }'}</style>
 			<NavBar />
 			<Routes>
 				<Route path='/' element={<Home />} />

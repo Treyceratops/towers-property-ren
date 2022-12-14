@@ -7,7 +7,7 @@ function About(props) {
 			<img className='shadow' src={aboutPic} alt='home-pic' />
 			<div className='centered'>
 				<p>
-					Towers property renovation LLC was officially established as a
+					Towers Property Renovation LLC was officially established as a
 					licensed general contractor in 2014 however it’s experience extends
 					back to 1982 when the owner began from the ground up working in the
 					industry.
