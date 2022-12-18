@@ -28,8 +28,6 @@ function About(props) {
 					<span className='email'>brian@tprenovate.com</span>
 					<br />
 					206-850-7636
-					<br />
-					call me for a good time xoxo
 				</h1>
 				<a
 					className='link'
