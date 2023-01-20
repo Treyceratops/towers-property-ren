@@ -10,7 +10,7 @@
 
 p {
   font-size: 1.5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .link {
@@ -88,6 +88,10 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9;
+}
+
+.about {
+  width: 100%;
 }
 
 .d-block {
