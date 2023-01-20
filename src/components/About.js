@@ -18,17 +18,9 @@ function About(props) {
 				</p>
 				<p>
 					Our extensive experience in the high-rise condo environment ensures
-					piece of mind with proper preparation for neighbors, HOA requirements
+					peace of mind with proper preparation for neighbors, HOA requirements
 					and safety considerations.{' '}
 				</p>
-				<br />
-				<h1>
-					Towers Property Renovation LLC
-					<br />
-					<span className='email'>brian@tprenovate.com</span>
-					<br />
-					206-850-7636
-				</h1>
 				<a
 					className='link'
 					href='https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604806594&LIC=TOWERPR796QC&SAW='

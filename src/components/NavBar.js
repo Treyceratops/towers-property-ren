@@ -7,6 +7,9 @@ function NavBar(props) {
 			<Link to='/'>
 				<button className='nav-butt'>Home</button>
 			</Link>
+			<Link to='/contact'>
+				<button className='nav-butt'>Contact</button>
+			</Link>
 			<Link to='/about'>
 				<button className='nav-butt'>About</button>
 			</Link>
