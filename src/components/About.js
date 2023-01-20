@@ -8,7 +8,7 @@ function About(props) {
 			<div className='centered about'>
 				<p>
 					Towers Property Renovation LLC was officially established as a
-					licensed general contractor in 2014 however it’s experience extends
+					licensed general contractor in 2014 however our experience extends
 					back to 1982 when the owner began from the ground up working in the
 					industry.
 				</p>

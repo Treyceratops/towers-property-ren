@@ -9,6 +9,7 @@ function Contact(props) {
 				<p />
 				Towers Property Renovation LLC
 				<p />
+				<p>Contact: brian towers</p>
 				<img className='icon email' src={Email} alt='email-icon' />
 				<a
 					className='link'
