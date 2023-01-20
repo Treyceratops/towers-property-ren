@@ -5,7 +5,7 @@ function About(props) {
 	return (
 		<div className='home'>
 			<img className='shadow' src={aboutPic} alt='home-pic' />
-			<div className='centered'>
+			<div className='centered about'>
 				<p>
 					Towers Property Renovation LLC was officially established as a
 					licensed general contractor in 2014 however it’s experience extends
