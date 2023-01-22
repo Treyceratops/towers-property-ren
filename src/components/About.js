@@ -21,13 +21,13 @@ function About(props) {
 					peace of mind with proper preparation for neighbors, HOA requirements
 					and safety considerations.{' '}
 				</p>
-				<a
-					className='link'
-					href='https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604806594&LIC=TOWERPR796QC&SAW='
-					target='_blank'>
-					Credential Link
-				</a>
 			</div>
+			<a
+				className='link'
+				href='https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604806594&LIC=TOWERPR796QC&SAW='
+				target='_blank'>
+				Credential Link
+			</a>
 		</div>
 	);
 }
