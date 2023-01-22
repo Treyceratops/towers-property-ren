@@ -15,6 +15,17 @@ import gallery12 from '../images/gallery-12.jpg';
 import gallery13 from '../images/gallery-13.jpg';
 import gallery14 from '../images/gallery-14.jpg';
 import gallery15 from '../images/gallery-15.jpg';
+import gallery16 from '../images/gallery-16.jpg';
+import gallery17 from '../images/gallery-17.jpg';
+import gallery18 from '../images/gallery-18.jpg';
+import gallery19 from '../images/gallery-19.jpg';
+import gallery20 from '../images/gallery-20.jpg';
+import gallery21 from '../images/gallery-21.jpg';
+import gallery22 from '../images/gallery-22.jpg';
+import gallery23 from '../images/gallery-23.jpg';
+import gallery24 from '../images/gallery-24.jpg';
+import gallery25 from '../images/gallery-25.jpg';
+import gallery26 from '../images/gallery-26.jpg';
 
 function Gallery(props) {
 	return (
@@ -23,122 +34,236 @@ function Gallery(props) {
 				<img className='d-block w-100' src={gallery1} alt='First slide' />
 
 				<Carousel.Caption>
-					<h3>First slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>Pacific Grand Condos</h3>
+					<p>Pre-Construction Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery2} alt='Second slide' />
 
 				<Carousel.Caption>
-					<h3>Second slide label</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<h3>Pacific Grand Condos</h3>
+					<p>Post-Renovation Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery3} alt='Third slide' />
 
 				<Carousel.Caption>
-					<h3>Third slide label</h3>
-					<p>
-						Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-					</p>
+					<h3>Olive 8 Condominiums</h3>
+					<p>Pre-Construction Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery4} alt='Fourth slide' />
 
 				<Carousel.Caption>
-					<h3>Fourth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>Olive 8 Condominiums</h3>
+					<p>Post-Renovation Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery5} alt='Fifth slide' />
 
 				<Carousel.Caption>
-					<h3>Fifth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>Queen Anne Residence</h3>
+					<p>Pre-Construction Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery6} alt='Sixth slide' />
 
 				<Carousel.Caption>
-					<h3>Sixth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>Queen Anne Residence</h3>
+					<p>Post-Renovation Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery7} alt='Seventh slide' />
 
 				<Carousel.Caption>
-					<h3>Seventh slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>Queen Anne Residence</h3>
+					<p>Post-Renovation Kitchen</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery8} alt='Eighth slide' />
 
 				<Carousel.Caption>
-					<h3>Eighth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Pre-Construction Bathroom #1</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery9} alt='Ninth slide' />
 
 				<Carousel.Caption>
-					<h3>Ninth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Post-Renovation Bathroom #1</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery10} alt='Tenth slide' />
 
 				<Carousel.Caption>
-					<h3>Tenth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Post-Renovation Bathroom #1</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery11} alt='Eleventh slide' />
 
 				<Carousel.Caption>
-					<h3>Eleventh slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Post-Renovation Bathroom #2</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery12} alt='Twelfth slide' />
 
 				<Carousel.Caption>
-					<h3>Twelfth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Pre-Construction Bathroom #3</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery13} alt='Thirteenth slide' />
 
 				<Carousel.Caption>
-					<h3>Thirteenth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Post-Renovation Bathroom #3</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery14} alt='Fourteenth slide' />
 
 				<Carousel.Caption>
-					<h3>Fourteenth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Pre-Construction Shower #4</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
 				<img className='d-block w-100' src={gallery15} alt='Fifteenth slide' />
 
 				<Carousel.Caption>
-					<h3>Fifteenth slide label</h3>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h3>98 Union Condos</h3>
+					<p>Post-Renovation Shower #4</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img className='d-block w-100' src={gallery16} alt='Sixteenth slide' />
+
+				<Carousel.Caption>
+					<h3>Bellora Condos</h3>
+					<p>Pre-Construction Kitchen</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery17}
+					alt='Seventeenth slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>Bellora Condos</h3>
+					<p>Post-Renovation Kitchen</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img className='d-block w-100' src={gallery18} alt='Eighteenth slide' />
+
+				<Carousel.Caption>
+					<h3>Entire 5,770 Square Foot House at The Highlands</h3>
+					<p>Pre-Interior Paint</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img className='d-block w-100' src={gallery19} alt='Nineteenth slide' />
+
+				<Carousel.Caption>
+					<h3>Living Room at The Highlands</h3>
+					<p>Pre-Interior Paint</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img className='d-block w-100' src={gallery20} alt='Twentieth slide' />
+
+				<Carousel.Caption>
+					<h3>Living Room at The Highlands – 1</h3>
+					<p>Post-Interior Paint</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery21}
+					alt='Twenty First slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>Living Room at The Highlands – 2</h3>
+					<p>Post-Interior Paint</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery22}
+					alt='Twenty Second slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>1st & 2nd floor decks at The Highlands</h3>
+					<p>Pre-Water Intrusion Repair</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery23}
+					alt='Twenty Third slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>1st & 2nd floor decks at The Highlands – 1</h3>
+					<p>During Construction-Water Intrusion Repair</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery24}
+					alt='Twenty Fourth slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>1st & 2nd floor decks at The Highlands – 2</h3>
+					<p>During Construction-Water Intrusion Repair</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery25}
+					alt='Twenty Fifth slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>1st & 2nd floor decks at The Highlands – 1</h3>
+					<p>Post Construction-Water Intrusion Repair</p>
+				</Carousel.Caption>
+			</Carousel.Item>
+			<Carousel.Item>
+				<img
+					className='d-block w-100'
+					src={gallery26}
+					alt='Twenty Sixth slide'
+				/>
+
+				<Carousel.Caption>
+					<h3>1st & 2nd floor decks at The Highlands – 2</h3>
+					<p>Post Construction-Water Intrusion Repair</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 		</Carousel>
