@@ -13,6 +13,10 @@ p {
   /* padding: 1rem; */
 }
 
+.intro-text {
+  font-family: 'Sacramento', cursive;
+}
+
 .link {
   font-size: 1.5rem;
   color: aqua;

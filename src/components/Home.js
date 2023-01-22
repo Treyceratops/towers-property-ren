@@ -5,7 +5,7 @@ function Home(props) {
 	return (
 		<div className='home'>
 			<img className='shadow' src={homePic} alt='home-pic' />
-			<h1 className='centered'>Live the Way You Want to Live...</h1>
+			<h1 className='centered intro-text'>Live the Way You Want to Live...</h1>
 		</div>
 	);
 }
