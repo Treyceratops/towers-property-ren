@@ -55,8 +55,8 @@ p {
 }
 
 img {
-  height: fit-content;
-  width: fit-content;
+  /* height: fit-content;
+  width: fit-content; */
   border: 6px solid aqua;
   border-radius: .2rem;
   box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 15px;
@@ -97,7 +97,12 @@ img {
 }
 
 .about {
-  width: 95%;
+  background: url('./images/about-pic-faded.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 6px solid aqua;
+  padding: 3rem 10rem 3rem 10rem;
+  margin: -6rem -8rem 0 -8rem;
 }
 
 .d-block {
@@ -128,6 +133,10 @@ img {
   /* transition: 1s; */
 }
 
+.carousel-caption {
+  top: 0;
+}
+
 @media only screen and (max-width: 850px) {
   .nav-butt {
     width: fit-content;
@@ -137,5 +146,11 @@ img {
   }
   .about {
     margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.9rem;
   }
 }

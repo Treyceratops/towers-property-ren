@@ -1,26 +1,26 @@
 import React from 'react';
-import aboutPic from '../images/about-pic.jpg';
 
 function About(props) {
 	return (
-		<div className='home'>
-			<img className='shadow' src={aboutPic} alt='home-pic' />
-			<div className='centered about'>
-				<p>
-					Towers Property Renovation LLC was officially established as a
-					licensed general contractor in 2014 however our experience extends
-					back to 1982 when the owner began from the ground up working in the
-					industry.
-				</p>
-				<p>
-					Although excelling in all scopes of work TPR specializes in kitchen
-					and bath remodel offering personalized design, form and function.{' '}
-				</p>
-				<p>
-					Our extensive experience in the high-rise condo environment ensures
-					peace of mind with proper preparation for neighbors, HOA requirements
-					and safety considerations.{' '}
-				</p>
+		<div className='centered'>
+			<div className='about'>
+				<div className='about-text'>
+					<p>
+						Towers Property Renovation LLC was officially established as a
+						licensed general contractor in 2014 however our experience extends
+						back to 1982 when the owner began from the ground up working in the
+						industry.
+					</p>
+					<p>
+						Although excelling in all scopes of work TPR specializes in kitchen
+						and bath remodel offering personalized design, form and function.{' '}
+					</p>
+					<p>
+						Our extensive experience in the high-rise condo environment ensures
+						peace of mind with proper preparation for neighbors, HOA
+						requirements and safety considerations.{' '}
+					</p>
+				</div>
 			</div>
 			<a
 				className='link'
