@@ -160,7 +160,10 @@ img {
     padding: 1rem 2rem 1rem 2rem;
   }
   .home {
-    padding: 10rem;
+    padding: 7rem;
+  }
+  .intro-text {
+    font-size: 2rem;
   }
 }
 
