@@ -10,6 +10,7 @@ function Home(props) {
 					color: 'white',
 					// fontSize: '2em',
 					fontFamily: 'Sacramento',
+					textAlign: 'center',
 				}}
 				// startDelay={0}
 				cursorColor='white'
