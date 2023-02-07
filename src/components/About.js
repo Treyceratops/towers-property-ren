@@ -4,6 +4,7 @@ function About(props) {
 	return (
 		<div>
 			<div className='about'>
+				<style>{'body {margin: 0; height: 100%; overflow: hidden;}'}</style>
 				<div className='about-text'>
 					<p>
 						Towers Property Renovation LLC was established in 2014 by owner,
@@ -23,9 +24,8 @@ function About(props) {
 						We have extensive experience working in high-rise condos and their
 						specific construction challenges. Our ability to navigate HOA
 						construction applications, building rules, permitting, insurance,
-						utility coordination, and neighbor communication/relations makes the
-						difference between a good project experience and a great project
-						experience.
+						and neighbor communication/relations makes the difference between a
+						good project experience and a great project experience.
 					</p>
 					<hr />
 					<p>TPR can help you make your vision a reality so you can…</p>

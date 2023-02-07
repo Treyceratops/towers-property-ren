@@ -24,12 +24,6 @@ p {
   transition: ease-in-out .5s;
 }
 
-.credential {
-  position: absolute;
-  bottom: -3rem;
-  margin-left: -3.5rem;
-}
-
 .link:hover {
   color: rgb(0, 153, 153);
   transition: 1s;
@@ -68,15 +62,11 @@ img {
 }
 
 .home {
-  /* position: absolute;
-  top: 10; */
   background: url('./images/home-pic-faded.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  border: 6px solid aqua;
-  padding: 20rem;
-  margin-left: auto;
-  margin-right: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 60rem;
 }
 
 .icon {
@@ -108,20 +98,44 @@ img {
   width: auto\9;
 }
 
-.about {
+/* .about {
   background: url('./images/about-pic-faded.png');
   background-repeat: no-repeat;
   background-size: cover;
   border: 6px solid aqua;
   padding: 3rem 10rem 3rem 10rem;
-  /* margin: 20rem -8rem 0 -8rem; */
   position: absolute;
   top: 10;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 60rem;
+} */
+
+.about {
+  /* padding: 13rem 0; */
+  background: url('./images/about-pic-faded.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60rem;
+  display: flex;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.about-text {
+  align-items: center;
+  padding: 1rem;
+}
+
+.credential {
+  position: absolute;
+  margin: 3rem -3rem;
 }
 
 .w-100 {
   max-height: auto;
-  max-width: 60rem;
+  max-width: 45rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -137,6 +151,8 @@ img {
   border: 3px solid aqua;
   border-radius: .2rem;
   padding: 3rem 2rem 3rem 2rem;
+  position: absolute;
+  top: 5rem;
 }
 
 .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
@@ -148,6 +164,11 @@ img {
   top: 0;
 }
 
+/* .carousel-indicators {
+  margin: 5rem 0 0 0;
+  margin-top: 1rem;
+} */
+
 @media only screen and (max-width: 850px) {
   .nav-butt {
     width: fit-content;
@@ -156,23 +177,27 @@ img {
   p {
     font-size: 1rem;
   }
-  .about {
+  /* .about {
     padding: 1rem 2rem 1rem 2rem;
-  }
-  .home {
+  } */
+  /* .home {
     padding: 7rem;
-  }
-  .intro-text {
+  } */
+  /* .intro-text {
     font-size: 2rem;
-  }
+  } */
 }
 
 @media only screen and (min-width: 1200px) {
-  .about {
+  /* .about {
     padding: 15rem;
-  }
+  } */
   
-  .home {
+  /* .home {
     padding: 30rem 10rem;
-  }
+  } */
+
+ /* .react-typewriter-text {
+    font-size: 4rem;
+  } */
 }

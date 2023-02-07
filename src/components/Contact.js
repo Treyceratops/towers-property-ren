@@ -5,6 +5,7 @@ import Phone from '../images/phone-icon.png';
 function Contact(props) {
 	return (
 		<div>
+			<style>{'body {margin: 0; height: 100%; overflow: hidden;}'}</style>
 			<h1>
 				<p />
 				Towers Property Renovation LLC
