@@ -3,14 +3,10 @@
   font-family: 'Dosis', sans-serif;
   font-weight: bold;
   color: white;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-    0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
-}
-
-p {
-  font-size: 1.5rem;
-  /* padding: 1rem; */
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: .12em;
+  word-spacing: .16em;
 }
 
 .intro-text {
@@ -19,13 +15,12 @@ p {
 }
 
 .link {
-  font-size: 1.5rem;
-  color: aqua;
+  color: #FAED26;
   transition: ease-in-out .5s;
 }
 
 .link:hover {
-  color: rgb(0, 153, 153);
+  color: #746d11;
   transition: 1s;
 }
 
@@ -33,6 +28,10 @@ p {
   position: sticky;
   z-index: 2;
   top: 0;
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
 }
 
 .nav-butt {
@@ -41,24 +40,21 @@ p {
   height: 3rem;
   width: 10rem;
   border-radius: .2rem;
-  margin: 1rem;
-  border: aqua solid 3px;
+  border: #FAED26 solid 3px;
   background-color: rgba(0, 0, 0, .5);
   color: white;
   transition: ease-in-out .5s;
 }
 
 .nav-butt:hover, .nav-butt:focus {
-  border: rgb(0, 153, 153) solid 3px;
-  color: aqua;
+  border: #746d11 solid 3px;
+  color: #FAED26;
   background-color: rgba(0, 0, 0, .9);
   transition: 1s;
 }
 
 img {
-  border: 6px solid aqua;
   border-radius: .2rem;
-  box-shadow: rgba(255, 255, 255, 0.8) 0px 5px 15px;
 }
 
 .home {
@@ -67,6 +63,12 @@ img {
   background-attachment: fixed;
   background-position: center;
   background-size: 60rem;
+}
+
+.contact-pic {
+  width: 40rem;
+  height: auto;
+  padding-top: 2rem;
 }
 
 .icon {
@@ -91,46 +93,17 @@ img {
   font-size: 3.5rem;
 }
 
-.shadow {
-  filter: brightness(50%);
-  max-width: 100%;
+.about-pic {
+  width: 40rem;
   height: auto;
-  width: auto\9;
-}
-
-/* .about {
-  background: url('./images/about-pic-faded.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 6px solid aqua;
-  padding: 3rem 10rem 3rem 10rem;
-  position: absolute;
-  top: 10;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: 60rem;
-} */
-
-.about {
-  /* padding: 13rem 0; */
-  background: url('./images/about-pic-faded.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 60rem;
-  display: flex;
-  max-width: 50rem;
-  margin: auto;
+  float: left;
+  padding: 2rem;
+  border: none;
+  box-shadow: none;
 }
 
 .about-text {
-  align-items: center;
-  padding: 1rem;
-}
-
-.credential {
-  position: absolute;
-  margin: 3rem -3rem;
+  padding: 3rem;
 }
 
 .w-100 {
@@ -148,7 +121,7 @@ img {
 .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, .9);
   transition: .5s ease-in-out;
-  border: 3px solid aqua;
+  border: 3px solid #FAED26;
   border-radius: .2rem;
   padding: 3rem 2rem 3rem 2rem;
   position: absolute;
@@ -156,7 +129,7 @@ img {
 }
 
 .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-  background-color: aqua;
+  background-color: #FAED26;
   transition: 1s;
 }
 
@@ -164,40 +137,45 @@ img {
   top: 0;
 }
 
-/* .carousel-indicators {
-  margin: 5rem 0 0 0;
-  margin-top: 1rem;
-} */
+.gallery h3, .gallery h5 {
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(244, 244, 244), 0 0 0.2em rgb(255, 255, 255);
+}
+
+.gallery .before {
+  color: red;
+}
+
+.gallery .after {
+  color: green;
+}
+
+.gallery .during {
+  color: blue;
+}
 
 @media only screen and (max-width: 850px) {
   .nav-butt {
     width: fit-content;
-    margin: .6rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 2.5vw;
   }
-  /* .about {
-    padding: 1rem 2rem 1rem 2rem;
-  } */
-  /* .home {
-    padding: 7rem;
-  } */
-  /* .intro-text {
-    font-size: 2rem;
-  } */
-}
+  .intro-text {
+    font-size: 6vw;
+  }
 
-@media only screen and (min-width: 1200px) {
-  /* .about {
-    padding: 15rem;
-  } */
-  
-  /* .home {
-    padding: 30rem 10rem;
-  } */
+  .contact-pic {
+    width: 90%;
+  }
 
- /* .react-typewriter-text {
-    font-size: 4rem;
-  } */
+  .about-pic {
+    float: none;
+    padding: 0;
+    width: 90%;
+    max-width: 30rem;
+    min-width: 10rem;
+    height: auto;
+  }
 }

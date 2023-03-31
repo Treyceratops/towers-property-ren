@@ -29,103 +29,103 @@ import gallery26 from '../images/gallery-26.jpg';
 
 function Gallery(props) {
 	return (
-		<div>
+		<div className='gallery'>
 			<style>{'.carousel-indicators { bottom: -3rem ; }'}</style>
 			<Carousel fade>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery1} alt='First slide' />
 
 					<Carousel.Caption>
-						<h3>Pacific Grand Condos</h3>
-						<p>Pre-Construction Kitchen</p>
+						<h5>Pacific Grand Condos Kitchen</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery2} alt='Second slide' />
 
 					<Carousel.Caption>
-						<h3>Pacific Grand Condos</h3>
-						<p>Post-Renovation Kitchen</p>
+						<h5>Pacific Grand Condos Kitchen</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery3} alt='Third slide' />
 
 					<Carousel.Caption>
-						<h3>Olive 8 Condominiums</h3>
-						<p>Pre-Construction Kitchen</p>
+						<h5>Olive 8 Condominiums Kitchen</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery4} alt='Fourth slide' />
 
 					<Carousel.Caption>
-						<h3>Olive 8 Condominiums</h3>
-						<p>Post-Renovation Kitchen</p>
+						<h5>Olive 8 Condominiums Kitchen</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery5} alt='Fifth slide' />
 
 					<Carousel.Caption>
-						<h3>Queen Anne Residence</h3>
-						<p>Pre-Construction Kitchen</p>
+						<h5>Queen Anne Residence Kitchen</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery6} alt='Sixth slide' />
 
 					<Carousel.Caption>
-						<h3>Queen Anne Residence</h3>
-						<p>Post-Renovation Kitchen</p>
+						<h5>Queen Anne Residence Kitchen</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery7} alt='Seventh slide' />
 
 					<Carousel.Caption>
-						<h3>Queen Anne Residence</h3>
-						<p>Post-Renovation Kitchen</p>
+						<h5>Queen Anne Residence Kitchen</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery8} alt='Eighth slide' />
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Pre-Construction Bathroom #1</p>
+						<h5>98 Union Condos Bathroom #1</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery9} alt='Ninth slide' />
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Post-Renovation Bathroom #1</p>
+						<h5>98 Union Condos Bathroom #1</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery10} alt='Tenth slide' />
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Post-Renovation Bathroom #1</p>
+						<h5>98 Union Condos Bathroom #1</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery11} alt='Eleventh slide' />
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Post-Renovation Bathroom #2</p>
+						<h5>98 Union Condos Bathroom #2</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className='d-block w-100' src={gallery12} alt='Twelfth slide' />
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Pre-Construction Bathroom #3</p>
+						<h5>98 Union Condos Bathroom #3</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -136,8 +136,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Post-Renovation Bathroom #3</p>
+						<h5>98 Union Condos Bathroom #3</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -148,8 +148,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Pre-Construction Shower #4</p>
+						<h5>98 Union Condos Shower #4</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -160,8 +160,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>98 Union Condos</h3>
-						<p>Post-Renovation Shower #4</p>
+						<h5>98 Union Condos Shower #4</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -172,8 +172,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Bellora Condos</h3>
-						<p>Pre-Construction Kitchen</p>
+						<h5>Bellora Condos Kitchen</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -184,8 +184,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Bellora Condos</h3>
-						<p>Post-Renovation Kitchen</p>
+						<h5>Bellora Condos Kitchen</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -196,8 +196,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Entire 5,770 Square Foot House at The Highlands</h3>
-						<p>Pre-Interior Paint</p>
+						<h5>Entire 5,770 Square Foot House at The Highlands Paint</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -208,8 +208,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Living Room at The Highlands</h3>
-						<p>Pre-Interior Paint</p>
+						<h5>Living Room at The Highlands Paint</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -220,8 +220,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Living Room at The Highlands – 1</h3>
-						<p>Post-Interior Paint</p>
+						<h5>Living Room at The Highlands – 1 Paint</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -232,8 +232,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>Living Room at The Highlands – 2</h3>
-						<p>Post-Interior Paint</p>
+						<h5>Living Room at The Highlands – 2 Paint</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -244,8 +244,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>1st & 2nd floor decks at The Highlands</h3>
-						<p>Pre-Water Intrusion Repair</p>
+						<h5>1st & 2nd floor decks at The Highlands Intrusion Repair</h5>
+						<h3 className='before'>BEFORE</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -256,8 +256,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>1st & 2nd floor decks at The Highlands – 1</h3>
-						<p>During Construction-Water Intrusion Repair</p>
+						<h5>1st & 2nd floor decks at The Highlands – 1 Intrusion Repair</h5>
+						<h3 className='during'>DURING</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -268,8 +268,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>1st & 2nd floor decks at The Highlands – 2</h3>
-						<p>During Construction-Water Intrusion Repair</p>
+						<h5>1st & 2nd floor decks at The Highlands – 2 Intrusion Repair</h5>
+						<h3 className='during'>DURING</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -280,8 +280,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>1st & 2nd floor decks at The Highlands – 1</h3>
-						<p>Post Construction-Water Intrusion Repair</p>
+						<h5>1st & 2nd floor decks at The Highlands – 1 Intrusion Repair</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -292,8 +292,8 @@ function Gallery(props) {
 					/>
 
 					<Carousel.Caption>
-						<h3>1st & 2nd floor decks at The Highlands – 2</h3>
-						<p>Post Construction-Water Intrusion Repair</p>
+						<h5>1st & 2nd floor decks at The Highlands – 2 Intrusion Repair</h5>
+						<h3 className='after'>AFTER</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
