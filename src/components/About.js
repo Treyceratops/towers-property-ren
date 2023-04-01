@@ -10,6 +10,9 @@ function About(props) {
 	}, []);
 	return (
 		<div>
+			<style>
+				{'.about-butt { color: #746d11; text-decoration: underline; }'}
+			</style>
 			<div className='about'>
 				<img
 					className='about-pic'
@@ -22,7 +25,7 @@ function About(props) {
 						Brian Towers, who brings over 40 years of construction experience to
 						every project.
 					</p>
-					<hr />
+					<hr className='about-hr' />
 					<p data-aos='fade-left'>
 						Specializing in kitchen and bath remodels, we are experienced in a
 						variety of project types and scopes. In addition to construction
@@ -30,7 +33,7 @@ function About(props) {
 						expresses your personality and works within the parameters of your
 						home.
 					</p>
-					<hr />
+					<hr className='about-hr' />
 					<p data-aos='fade-left'>
 						We have extensive experience working in high-rise condos and their
 						specific construction challenges. Our ability to navigate HOA
@@ -38,7 +41,7 @@ function About(props) {
 						and neighbor communication/relations makes the difference between a
 						good project experience and a great project experience.
 					</p>
-					<hr />
+					<hr className='about-hr' />
 					<a
 						className='link credential'
 						href='https://secure.lni.wa.gov/verify/Detail.aspx?UBI=604806594&LIC=TOWERPR796QC&SAW='
@@ -53,6 +56,7 @@ function About(props) {
 						Live The Way You Want To Live
 					</h1>
 				</div>
+				<p />
 			</div>
 		</div>
 	);

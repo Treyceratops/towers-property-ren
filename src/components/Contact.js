@@ -1,12 +1,15 @@
 import React from 'react';
-import Email from '../images/email-icon.png';
-import Phone from '../images/phone-icon.png';
+import Email from '../images/white-email-icon.png';
+import Phone from '../images/white-phone-icon.png';
 import ConnectPic from '../images/gallery-17.jpg';
 import 'animate.css';
 
 function Contact(props) {
 	return (
 		<div>
+			<style>
+				{'.contact-butt { color: #746d11; text-decoration: underline; }'}
+			</style>
 			<h1>
 				<p />
 				Towers Property Renovation LLC
