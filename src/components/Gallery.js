@@ -248,7 +248,9 @@ function Gallery(props) {
 
 					<Carousel.Caption>
 						<h3 className='before'>BEFORE</h3>
-						<h5>1st & 2nd floor decks at The Highlands Intrusion Repair</h5>
+						<h5>
+							1st & 2nd floor decks at The Highlands - Water Intrusion Repair
+						</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -260,7 +262,9 @@ function Gallery(props) {
 
 					<Carousel.Caption>
 						<h3 className='during'>DURING</h3>
-						<h5>1st & 2nd floor decks at The Highlands – 1 Intrusion Repair</h5>
+						<h5>
+							1st & 2nd floor decks at The Highlands – 1 Water Intrusion Repair
+						</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -272,7 +276,9 @@ function Gallery(props) {
 
 					<Carousel.Caption>
 						<h3 className='during'>DURING</h3>
-						<h5>1st & 2nd floor decks at The Highlands – 2 Intrusion Repair</h5>
+						<h5>
+							1st & 2nd floor decks at The Highlands – 2 Water Intrusion Repair
+						</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -284,7 +290,9 @@ function Gallery(props) {
 
 					<Carousel.Caption>
 						<h3 className='after'>AFTER</h3>
-						<h5>1st & 2nd floor decks at The Highlands – 1 Intrusion Repair</h5>
+						<h5>
+							1st & 2nd floor decks at The Highlands – 1 Water Intrusion Repair
+						</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
@@ -296,7 +304,9 @@ function Gallery(props) {
 
 					<Carousel.Caption>
 						<h3 className='after'>AFTER</h3>
-						<h5>1st & 2nd floor decks at The Highlands – 2 Intrusion Repair</h5>
+						<h5>
+							1st & 2nd floor decks at The Highlands – 2 Water Intrusion Repair
+						</h5>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>
