@@ -173,8 +173,12 @@ img {
 }
 
 @media only screen and (max-width: 850px) {
+  .nav-bar {
+      gap: 1rem;
+    }
+
   .nav-butt {
-    width: fit-content;
+    width: 3.5rem;
   }
 
   p {
