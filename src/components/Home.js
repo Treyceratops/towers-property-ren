@@ -10,7 +10,11 @@ function Home(props) {
 					'.react-typewriter-text { padding: 30rem 0; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); }'
 				}
 				{'body {margin: 0; height: 100%; overflow: hidden;}'}
-				{'.home-butt { color: #746d11; text-decoration: underline; }'}
+				{'.home-butt { text-decoration: underline dotted; }'}
+				{'.footer { display: none;}'}
+				{'.nav-bar { background-color: rgba(250, 250, 250, 0);}'}
+				{'.tpr-logo { filter: none; }'}
+				{'.nav-bar button { color: white; }'}
 			</style>
 			<img className='home-pic' src={HomePic} alt='kitchen-pic' />
 			<div>

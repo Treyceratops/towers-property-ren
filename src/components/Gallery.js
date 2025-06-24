@@ -32,7 +32,7 @@ function Gallery(props) {
 		<div className='gallery'>
 			<style>
 				{'.carousel-indicators { bottom: -3rem ; }'}
-				{'.gallery-butt { color: #746d11; text-decoration: underline; }'}
+				{'.gallery-butt { text-decoration: underline dotted; }'}
 			</style>
 			<Carousel fade>
 				<Carousel.Item>

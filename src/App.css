@@ -1,12 +1,14 @@
 .App {
   text-align: center;
-  font-family: 'Dosis', sans-serif;
-  font-weight: bold;
-  color: white;
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  /* color: white; */
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: .12em;
   word-spacing: .16em;
+  background-color: white;
 }
 
 .intro-text {
@@ -16,12 +18,12 @@
 }
 
 .link {
-  color: #FAED26;
+  /* color: #FAED26; */
   transition: ease-in-out .5s;
 }
 
 .link:hover {
-  color: #746d11;
+  /* color: #746d11; */
   transition: 1s;
 }
 
@@ -31,11 +33,22 @@
   top: 0;
   display: flex;
   gap: 2rem;
-  padding: 1.5rem;
   justify-content: center;
-  border-bottom: #FAED26 1px solid;
-  margin-bottom: 2rem;
-  background-color: #1b141e;
+  /* border-bottom: #FAED26 1px solid; */
+  /* margin-bottom: 2rem; */
+  /* background-color: #1b141e; */
+  /* background-color: rgba(0, 0, 0, .9) */
+  /* background-color: inherit; */
+  background-color: rgba(250, 250, 250, .9);
+}
+.nav-bar a {
+  padding-top: 1.5rem;
+  /* color: white; */
+}
+
+.tpr-logo {
+  width: 15rem;
+  filter: invert(50);
 }
 
 .nav-butt {
@@ -44,46 +57,61 @@
   width: 10rem;
   background-color: inherit;
   border: none;
-  color: #FAED26;
+  /* color: #FAED26; */
   transition: ease-in-out .5s;
 }
 
 .nav-butt:hover {
-  color: #746d11;
-  text-decoration: underline;
+  /* color: #746d11; */
+  text-decoration: underline dotted;
   transition: 1s;
 }
 
-img {
+/* img {
   border-radius: .2rem;
-}
+} */
 
 .home-pic {
   position: fixed;
   left: 50%;
-  top: 52%;
+  /* top: 52.1%; */
+  top: 45%;
   transform: translate(-50%, -50%);
 }
 
-.contact-pic {
+.contact-tower {
+  border: 5rem solid black;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: -5rem;
+  padding: 5rem;
+  border-bottom: none;
+  height: 85rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .contact-pic {
   width: 40rem;
   height: auto;
   padding-top: 2rem;
-}
+} */
 
 .icon {
-  width: 2rem;
-  height: 3rem;
-  border: none;
-  box-shadow: none;
-  margin-right: 1rem;
+  width: 20rem;
+  height: 20rem;
+  padding-right: 2rem;
+  /* height: 3rem; */
+  /* border: none; */
+  /* box-shadow: none; */
+  /* margin-right: 1rem; */
 }
 
-.email {
+/* .email {
   width: 4rem;
   height: 3rem;
   margin-left: 2rem;
-}
+} */
 
 .centered {
   position: absolute;
@@ -91,6 +119,10 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3.5rem;
+} 
+
+.about {
+display: inline;
 }
 
 .about-pic {
@@ -103,7 +135,8 @@ img {
 }
 
 .about-hr {
-  border-top: 2px solid #FAED26;
+  border: 3px dashed black;
+  /* border-radius: 5rem; */
 }
 
 .about-text {
@@ -172,7 +205,40 @@ img {
   margin: auto;
 }
 
+.footer {
+  margin-top: 5rem;
+  height: 20rem;
+  /* background-position: bottom ; */
+  background-image: url("./images/towers.png");
+  background-size: 5rem;
+  background-repeat: repeat-x;
+  background-color: black;
+}
+
+.foot-text {
+  padding: 5rem 0 0 2rem;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.foot-text a {
+  padding-left: 6rem;
+  color: white;
+}
+
+/* .foot-text h1 {
+  font-size: 1rem;
+} */
+
+/* .foot-towers img {
+  width: 15rem;
+} */
+
 @media only screen and (max-width: 850px) {
+  .tpr-logo {
+    width: 8rem;
+  }
   .nav-bar {
       gap: 1rem;
     }
