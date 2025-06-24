@@ -24,6 +24,7 @@ function Home(props) {
 						fontWeight: 'bold',
 						fontFamily: 'Dosis',
 						textAlign: 'center',
+						paddingTop: '1rem',
 					}}
 					startDelay={0}
 					cursorColor='white'

@@ -13,6 +13,7 @@
 
 .intro-text {
   /* font-family: 'Sacramento', cursive; */
+  font-family: 'Dosis', sans-serif;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -249,6 +250,11 @@ display: inline;
 
   p {
     font-size: 2.5vw;
+  }
+
+  .home-pic {
+    width: 50rem;
+    top: 15rem;
   }
 
   .intro-text {
